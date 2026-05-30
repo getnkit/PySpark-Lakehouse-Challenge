@@ -1,0 +1,6 @@
+transaction_id,customer_id,transaction_date,amount,payment_method,status
+T001,001,2025-04-01,1500.50,credit_card,success
+T002,002,2025-04-02,0.00,promptpay,failed
+T003,003,invalid_date,450.00,bank_transfer,success
+T004,999,2025-04-03,not_available,credit_card,pending
+T005,006,2025-04-04,780.25,promptpay,success

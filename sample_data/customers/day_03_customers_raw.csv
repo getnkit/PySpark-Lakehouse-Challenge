@@ -1,0 +1,7 @@
+customer_id,customer_name,email,signup_date,total_spend,is_active
+001,Alice Wong,alice@example.com,2025-01-05,1200.50,true
+002,Bob Smith,bob@example.com,2025-01-07,0.00,false
+003,Chalida Tan,chalida@example.com,2025-02-10,500.25,true
+004,Danai Lee,danai@example.com,invalid_date,890.00,true
+005,Eve Park,eve@example.com,2025-03-15,not_available,false
+006,Niran Chai,niran@example.com,2025-03-20,320.00,true
