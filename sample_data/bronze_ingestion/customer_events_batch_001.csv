@@ -1,0 +1,5 @@
+event_id,customer_id,customer_name,city,event_time_text,amount_text,payment_status
+E001,C001,Alice,Bangkok,2026-06-01 08:01:00,1200.50,paid
+E002,C002,Bob,Chiang Mai,2026-06-01 09:15:00,850.00,paid
+E003,C003,Charlie,Phuket,not-a-timestamp,abc,failed
+E004,,Diana,Bangkok,2026-06-01 10:30:00,430.00,pending

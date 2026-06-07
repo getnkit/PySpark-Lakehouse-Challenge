@@ -1,0 +1,4 @@
+event_id,customer_id,customer_name,city,event_time_text,amount_text,payment_status
+E005,C004,Ethan,Rayong,2026-06-02 08:45:00,990.00,paid
+E006,C002,Bob,Chiang Mai,2026-06-02 11:20:00,300.00,paid
+E007,C005,Fah,Nakhon Pathom,2026-06-02 12:05:00,-50.00,refunded
