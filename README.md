@@ -24,7 +24,7 @@ Repo นี้เป็น 30-day hands-on learning lab สำหรับฝึ
 ## Repository structure
 
 ```text
-pyspark-lakehouse-challenge/
+PySpark-Lakehouse-Challenge/
 ├── diagrams/     # Mermaid diagrams and technical infographics
 ├── docs/         # Reference documentation
 ├── notebooks/    # Daily Fabric notebooks
