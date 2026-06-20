@@ -4,8 +4,6 @@ Repo นี้เป็น 30-day hands-on learning lab สำหรับฝึ
 
 เนื้อหาเน้นการลงมือทำจริงผ่าน daily notebooks ตั้งแต่ PySpark พื้นฐาน, DataFrame transformations, Delta/Lakehouse table operations, data quality checks, incremental processing, performance debugging ไปจนถึง Structured Streaming และ final mini Lakehouse pipeline
 
----
-
 ## What this repo covers
 
 - PySpark DataFrame API
@@ -23,8 +21,6 @@ Repo นี้เป็น 30-day hands-on learning lab สำหรับฝึ
 - Structured Streaming basics และ Lakehouse streaming pattern
 - Final mini Lakehouse pipeline
 
----
-
 ## Repository structure
 
 ```text
@@ -36,8 +32,6 @@ pyspark-lakehouse-challenge/
 └── README.md
 ```
 
----
-
 ## Learning path
 
 | Phase | Focus |
@@ -47,8 +41,6 @@ pyspark-lakehouse-challenge/
 | Phase 3 | Lakehouse และ Delta table concepts |
 | Phase 4 | Production-style Lakehouse pipeline patterns |
 | Phase 5 | Performance debugging, Structured Streaming และ final pipeline |
-
----
 
 ## How to use this repo
 
@@ -67,8 +59,6 @@ pyspark-lakehouse-challenge/
 - Final takeaway
 
 Notebook ถูกออกแบบให้รันใน **Microsoft Fabric Notebook** โดย attach กับ **Fabric Lakehouse**
-
----
 
 ## References
 

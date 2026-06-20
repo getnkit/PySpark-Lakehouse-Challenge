@@ -4,8 +4,6 @@
 
 Last reviewed: 2026-06-20
 
----
-
 ## Microsoft Fabric and Lakehouse
 
 กลุ่มนี้คือ reference หลักของ environment ที่ใช้ใน repo เพราะ challenge นี้ใช้ **Microsoft Fabric Notebook + Fabric Lakehouse** เป็น main environment
@@ -22,8 +20,6 @@ Last reviewed: 2026-06-20
 | [VACUUM Delta tables](https://learn.microsoft.com/fabric/data-engineering/delta-lake-vacuum) | ใช้กับ VACUUM behavior, retention, DRY RUN mindset และ cleanup safety |
 | [Apache Spark runtimes in Microsoft Fabric](https://learn.microsoft.com/fabric/data-engineering/runtime) | ใช้ดู runtime context, Spark version และข้อควรระวังเรื่อง environment-specific behavior |
 
----
-
 ## Apache Spark and PySpark core
 
 กลุ่มนี้คือ reference หลักของ PySpark syntax และ API ที่ใช้แทบทุกวันใน challenge
@@ -37,8 +33,6 @@ Last reviewed: 2026-06-20
 | [PySpark types](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/data_types.html) | ใช้กับ `StructType`, `StructField`, `StringType`, `IntegerType`, `DecimalType`, `TimestampType` และ complex types |
 | [PySpark Window API](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.Window.html) | ใช้กับ window specification เช่น `partitionBy`, `orderBy` และ pattern เช่น latest record, deduplication, SCD prep |
 
----
-
 ## Spark SQL, performance, and debugging
 
 กลุ่มนี้ใช้กับช่วง performance และ debugging โดยเฉพาะ Day 25-27 และ final pipeline
@@ -48,8 +42,6 @@ Last reviewed: 2026-06-20
 | [Spark SQL performance tuning](https://spark.apache.org/docs/latest/sql-performance-tuning.html) | ใช้กับ caching, partition tuning, join strategy, Adaptive Query Execution และ data skew-related performance topics |
 | [Spark configuration](https://spark.apache.org/docs/latest/configuration.html) | ใช้เวลาเช็ค runtime/session settings, Spark SQL shuffle partitions หรือ behavior ที่ขึ้นกับ environment |
 | [Spark monitoring and instrumentation](https://spark.apache.org/docs/latest/monitoring.html) | ใช้ทบทวน Spark UI, jobs, stages, tasks และ metrics เวลา debug performance |
-
----
 
 ## Structured Streaming
 
@@ -61,8 +53,6 @@ Last reviewed: 2026-06-20
 | [PySpark DataStreamReader](https://spark.apache.org/docs/latest/api/python/reference/pyspark.ss/api/pyspark.sql.streaming.DataStreamReader.html) | ใช้ตรวจ syntax และ option ของ `spark.readStream` |
 | [PySpark DataStreamWriter](https://spark.apache.org/docs/latest/api/python/reference/pyspark.ss/api/pyspark.sql.streaming.DataStreamWriter.html) | ใช้ตรวจ syntax ของ `.writeStream`, `trigger`, `outputMode`, `option` และ `start` |
 | [PySpark StreamingQuery](https://spark.apache.org/docs/latest/api/python/reference/pyspark.ss/api/pyspark.sql.streaming.StreamingQuery.html) | ใช้ดู query lifecycle methods เช่น `start`, `stop`, `awaitTermination`, status และ progress inspection |
-
----
 
 ## Delta Lake concepts
 
