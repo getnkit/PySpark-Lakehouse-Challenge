@@ -29,9 +29,9 @@ Repo นี้เป็น 30-day hands-on learning lab สำหรับฝึ
 
 ```text
 pyspark-lakehouse-challenge/
-├── notebooks/    # Daily Fabric notebooks
-├── docs/         # Reference documentation
 ├── diagrams/     # Mermaid diagrams and technical infographics
+├── docs/         # Reference documentation
+├── notebooks/    # Daily Fabric notebooks
 ├── sample_data/  # Small mock/sample data used in selected notebooks
 └── README.md
 ```
